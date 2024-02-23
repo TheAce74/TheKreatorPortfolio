@@ -8,7 +8,7 @@ import curve4 from "../assets/curved4.png";
 export default function Footer() {
   return (
     <footer id="contact" className="section relative">
-      <div className="w-[max(50%,_30ch)] mx-auto bg-primary-500 dark:bg-primary-900 text-neutral-100 py-4 px-8 my-12 md:-mt-12 rounded-full flex items-center justify-between">
+      <div className="w-[max(50%,_27ch)] mx-auto bg-primary-500 dark:bg-primary-900 text-neutral-100 py-4 px-8 my-12 md:-mt-12 rounded-full flex items-center justify-between">
         <img
           src={logoDark}
           alt="The Kreator's Logo"
