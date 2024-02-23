@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" style="margin: auto; background: rgb(255, 255, 255); display: block; shape-rendering: auto;" width="280" height="250" preserveAspectRatio="xMidYMid">
+<style type="text/css">
+  text {
+    text-anchor: middle; font-size: 100px; opacity: 0;
+  }
+</style>
+<g style="transform-origin:140px 125px;transform:scale(1)">
+<g transform="translate(140,125)">
+  <g transform="translate(0,0)"><g class="path" style="transform: matrix(1, 0, 0, 1, 0, 0); transform-origin: -30.8px -1.33533px; animation: 1s linear -0.44s infinite normal forwards running bounce-6281c881-a8f9-45e4-b801-247cf01ad377;"><path d="M3.90-48.40L9.70-48.40L9.70-59.30L23.20-61.90L21.90-48.40L34-48.40L32.90-40.20L21.50-40.20L21-19.30L21-19.30Q21-14.60 21.90-13.05L21.90-13.05L21.90-13.05Q22.80-11.50 25.20-11.50L25.20-11.50L25.20-11.50Q27.60-11.50 31.60-12.60L31.60-12.60L32.20-5.50L32.20-5.50Q25.60 0 20.60 0L20.60 0L20.60 0Q15.60 0 12.40-3.65L12.40-3.65L12.40-3.65Q9.20-7.30 9.20-13.20L9.20-13.20L9.80-24.40L9.70-40.20L2.80-40.20L3.90-48.40" fill="#360959" stroke="none" stroke-width="none" transform="translate(-49.20001220703125,29.614665966033936)" style="fill: rgb(54, 9, 89);"></path></g><g class="path" style="transform: matrix(1, 0, 0, 1, 0, 0); transform-origin: 13.4px -8.58533px; animation: 1s linear -0.22s infinite normal forwards running bounce-6281c881-a8f9-45e4-b801-247cf01ad377;"><path d="M83.90-6.60L72.50 1L53.70-26.70L53.70-26L54.80-2.50L41.30 0L42.50-24.30L41.30-74.90L55-77.40L53.70-29.10L73.70-51L83.10-44.60L65.60-28.20L83.90-6.60" fill="#360959" stroke="none" stroke-width="none" transform="translate(-49.20001220703125,29.614665966033936)" style="fill: rgb(150, 26, 248);"></path></g><g class="path" style="transform: matrix(1, 0, 0, 1, 0, 0); transform-origin: 44.75px 22.5147px; animation: 1s linear 0s infinite normal forwards running bounce-6281c881-a8f9-45e4-b801-247cf01ad377;"><path d="M86.70-6.70L86.70-6.70L86.70-6.70Q86.70-9.90 89.05-12.35L89.05-12.35L89.05-12.35Q91.40-14.80 94.70-14.80L94.70-14.80L94.70-14.80Q101.20-14.80 101.20-8.20L101.20-8.20L101.20-8.20Q101.20-4.40 98.85-1.90L98.85-1.90L98.85-1.90Q96.50 0.60 93.35 0.60L93.35 0.60L93.35 0.60Q90.20 0.60 88.45-1.45L88.45-1.45L88.45-1.45Q86.70-3.50 86.70-6.70" fill="#360959" stroke="none" stroke-width="none" transform="translate(-49.20001220703125,29.614665966033936)" style="fill: rgb(54, 9, 89);"></path></g></g>
+</g>
+</g>
+<style id="bounce-6281c881-a8f9-45e4-b801-247cf01ad377" data-anikit="">@keyframes bounce-6281c881-a8f9-45e4-b801-247cf01ad377
+{
+  0% {
+    animation-timing-function: cubic-bezier(0.1361,0.2514,0.2175,0.8786);
+    transform: translate(0,0px) scaleY(1);
+  }
+  37% {
+    animation-timing-function: cubic-bezier(0.7674,0.1844,0.8382,0.7157);
+    transform: translate(0,-39.96px) scaleY(1);
+  }
+  72% {
+    animation-timing-function: cubic-bezier(0.1118,0.2149,0.2172,0.941);
+    transform: translate(0,0px) scaleY(1);
+  }
+  87% {
+    animation-timing-function: cubic-bezier(0.7494,0.2259,0.8209,0.6963);
+    transform: translate(0,19.900000000000002px) scaleY(0.602);
+  }
+  100% {
+    transform: translate(0,0px) scaleY(1);
+  }
+}</style></svg>
