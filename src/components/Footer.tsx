@@ -15,12 +15,12 @@ export default function Footer() {
           draggable={false}
           width="86px"
           height="62px"
-          className="sm:w-14 w-10"
+          className="md:block w-14 hidden"
         />
         <ul
           role="list"
           aria-label="social links"
-          className="flex items-center gap-4"
+          className="flex items-center justify-center md:justify-right w-full md:w-max gap-6 md:gap-4"
         >
           <li aria-label="whatsapp">
             <a
