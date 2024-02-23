@@ -46,7 +46,7 @@ export default function Header() {
         className="w-[3.5em]"
       />
       <div className="flex items-center gap-4 md:gap-8 lg:gap-12">
-        <nav className="hidden sm:block">
+        <nav className="hidden md:block">
           <ul
             role="list"
             className="flex items-center gap-4 md:gap-8 lg:gap-12 *:font-bold"
