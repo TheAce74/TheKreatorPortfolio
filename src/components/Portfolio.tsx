@@ -51,7 +51,7 @@ export default function Portfolio() {
         draggable={false}
         width="373px"
         height="647px"
-        className="absolute top-0 left-[-1rem] w-48 -z-10 translate-y-5"
+        className="absolute top-0 left-[-1rem] w-48 -z-10 translate-y-16"
       />
     </section>
   );
