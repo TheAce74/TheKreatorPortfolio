@@ -1,9 +1,31 @@
 import profile from "../assets/profile.png";
 import curve1 from "../assets/curved1.png";
+import { useInView, animated } from "@react-spring/web";
 
 export default function Home() {
+  const [ref, springs] = useInView(
+    () => ({
+      from: {
+        opacity: 0,
+        y: 100,
+      },
+      to: {
+        opacity: 1,
+        y: 0,
+      },
+    }),
+    {
+      rootMargin: "-40% 0%",
+    }
+  );
+
   return (
-    <section id="home" className="section relative">
+    <animated.section
+      id="home"
+      className="section relative"
+      ref={ref}
+      style={springs}
+    >
       <div className="p-8 bg-primary-500 dark:bg-primary-900 rounded-[2em] md:grid md:grid-cols-2 md:gap-8 md:items-center lg:py-16">
         <div>
           <img
@@ -45,6 +67,6 @@ export default function Home() {
         height="647px"
         className="absolute bottom-0 right-[-1rem] w-48 translate-y-1/3"
       />
-    </section>
+    </animated.section>
   );
 }

@@ -5,12 +5,21 @@ import work4 from "../assets/work4.png";
 import work5 from "../assets/work5.png";
 import work6 from "../assets/work6.png";
 import curve2 from "../assets/curved2.png";
+import { useTrail, animated, useInView } from "@react-spring/web";
 
 export default function Portfolio() {
   const images = [work1, work2, work3, work4, work5, work6];
+  const [ref, inView] = useInView({
+    rootMargin: "-40% 0%",
+  });
+  const trails = useTrail(images.length, {
+    scale: inView ? 1 : 0,
+    config: { mass: 1, tension: 210, friction: 20 },
+    from: { scale: 0 },
+  });
 
   return (
-    <section id="portfolio" className="section relative">
+    <section ref={ref} id="portfolio" className="section relative">
       <h2 className="mx-auto text-center w-max bg-primary-500 dark:bg-primary-900 text-neutral-100 font-semibold py-3 px-20 rounded-full">
         My Portfolio
       </h2>
@@ -21,15 +30,16 @@ export default function Portfolio() {
         role="list"
         className="md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-8"
       >
-        {images.map((image, index) => (
+        {trails.map((props, index) => (
           <li key={`work-${index}`}>
-            <img
-              src={image}
+            <animated.img
+              src={images[index]}
               alt={`design ${index}`}
               draggable={false}
               width="360px"
               height="360px"
               className="mx-auto mb-8 md:mb-0 rounded-3xl"
+              style={props}
             />
           </li>
         ))}

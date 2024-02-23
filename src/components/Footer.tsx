@@ -42,7 +42,7 @@ export default function Footer() {
           </li>
           <li aria-label="linkedin">
             <a
-              href=""
+              href="https://www.linkedin.com/in/wisdom-the-kreator-5404201a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               target="_blank"
               className="text-3xl hover:text-indigo-300 focus:text-indigo-300 transition-colors"
             >
@@ -51,7 +51,7 @@ export default function Footer() {
           </li>
           <li aria-label="x">
             <a
-              href=""
+              href="https://x.com/kreatorgraphics?s=09"
               target="_blank"
               className="text-3xl hover:text-indigo-300 focus:text-indigo-300 transition-colors"
             >
