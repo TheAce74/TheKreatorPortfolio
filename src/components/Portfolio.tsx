@@ -11,6 +11,7 @@ export default function Portfolio() {
   const images = [work1, work2, work3, work4, work5, work6];
   const [ref, inView] = useInView({
     rootMargin: "-40% 0%",
+    once: true,
   });
   const trails = useTrail(images.length, {
     scale: inView ? 1 : 0,

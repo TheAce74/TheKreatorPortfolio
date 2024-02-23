@@ -16,6 +16,7 @@ export default function Home() {
     }),
     {
       rootMargin: "-40% 0%",
+      once: true,
     }
   );
 

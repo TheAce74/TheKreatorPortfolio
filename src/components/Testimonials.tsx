@@ -53,6 +53,7 @@ const testimonials = [
 export default function Testimonials() {
   const [ref, inView] = useInView({
     rootMargin: "-40% 0%",
+    once: true,
   });
   const trails = useTrail(testimonials.length, {
     opacity: inView ? 1 : 0,
