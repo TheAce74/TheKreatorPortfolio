@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .section {
+    @apply p-4 w-[calc(min(100%,_120rem)_-_2rem)] mx-auto sm:p-8;
+  }
+
+  .header {
+    @apply py-4 px-0 w-[calc(min(100%,_120rem)_-_2rem)] mx-auto sm:p-8;
+  }
+}
