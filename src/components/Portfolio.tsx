@@ -29,7 +29,7 @@ export default function Portfolio() {
               draggable={false}
               width="360px"
               height="360px"
-              className="mx-auto mb-8 md:mb-0"
+              className="mx-auto mb-8 md:mb-0 rounded-3xl"
             />
           </li>
         ))}
