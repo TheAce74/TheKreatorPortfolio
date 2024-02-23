@@ -65,7 +65,7 @@ export default function Home() {
         draggable={false}
         width="373px"
         height="647px"
-        className="absolute bottom-0 right-[-1rem] w-48 translate-y-1/3"
+        className="absolute bottom-0 right-[-1rem] w-48 translate-y-[55%] sm:translate-y-1/2 md:translate-y-1/3"
       />
     </animated.section>
   );
