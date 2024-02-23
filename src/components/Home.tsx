@@ -20,7 +20,9 @@ export default function Home() {
         </div>
         <div className="*:text-neutral-100 *:font-semibold text-center md:text-left">
           <h1 className="text-5xl lg:text-6xl xl:text-7xl mb-4">
-            Hi there!! I'm Wisdom The Kreator
+            <span>Hi there!! I'm Wisdom</span>
+            <br />
+            <span>The Kreator</span>
           </h1>
           <p>
             I'm a Creative Designer who loves working with brands, businesses &
