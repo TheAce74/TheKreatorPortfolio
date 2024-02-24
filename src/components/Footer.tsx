@@ -3,7 +3,7 @@ import { RiWhatsappFill } from "react-icons/ri";
 import { AiFillInstagram } from "react-icons/ai";
 import { ImLinkedin } from "react-icons/im";
 import { BsTwitterX } from "react-icons/bs";
-import curve4 from "../assets/curved4.png";
+import curved from "../assets/curved.png";
 
 export default function Footer() {
   return (
@@ -64,12 +64,12 @@ export default function Footer() {
         &copy; 2023 The Kreator. All Rights reserved.
       </p>
       <img
-        src={curve4}
+        src={curved}
         alt=""
         draggable={false}
         width="373px"
         height="647px"
-        className="absolute bottom-0 left-[-1rem] w-48 -z-10"
+        className="absolute bottom-[-5rem] left-[-5rem] w-60 -z-10 rotate-[250deg]"
       />
     </footer>
   );

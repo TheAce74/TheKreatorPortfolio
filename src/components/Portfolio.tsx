@@ -4,7 +4,7 @@ import work3 from "../assets/work3.png";
 import work4 from "../assets/work4.png";
 import work5 from "../assets/work5.png";
 import work6 from "../assets/work6.png";
-import curve2 from "../assets/curved2.png";
+import curved from "../assets/curved.png";
 import { useTrail, animated, useInView } from "@react-spring/web";
 
 export default function Portfolio() {
@@ -46,12 +46,12 @@ export default function Portfolio() {
         ))}
       </ul>
       <img
-        src={curve2}
+        src={curved}
         alt=""
         draggable={false}
         width="373px"
         height="647px"
-        className="absolute top-0 left-[-1rem] w-48 -z-10 translate-y-16"
+        className="absolute top-0 left-[-8rem] w-60 -z-10 translate-y-4 rotate-[60deg]"
       />
     </section>
   );

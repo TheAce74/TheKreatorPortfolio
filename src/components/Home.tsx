@@ -1,5 +1,5 @@
 import profile from "../assets/profile.png";
-import curve1 from "../assets/curved1.png";
+import curved from "../assets/curved.png";
 import { useInView, animated } from "@react-spring/web";
 
 export default function Home() {
@@ -61,12 +61,12 @@ export default function Home() {
         </div>
       </div>
       <img
-        src={curve1}
+        src={curved}
         alt=""
         draggable={false}
         width="373px"
         height="647px"
-        className="absolute bottom-0 right-[-1rem] w-48 translate-y-[55%] sm:translate-y-1/2 md:translate-y-1/3"
+        className="absolute bottom-0 right-[-5rem] w-60 translate-y-[55%] sm:translate-y-1/2 md:translate-y-1/3"
       />
     </animated.section>
   );

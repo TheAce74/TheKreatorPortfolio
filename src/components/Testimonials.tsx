@@ -2,9 +2,7 @@ import person1 from "../assets/person1.png";
 import person2 from "../assets/person2.png";
 import person3 from "../assets/person3.png";
 import person4 from "../assets/person4.png";
-import curve1 from "../assets/curved1.png";
-import curve2 from "../assets/curved2.png";
-import curve3 from "../assets/curved3.png";
+import curved from "../assets/curved.png";
 import { FaStar } from "react-icons/fa6";
 import { useTrail, animated, useInView } from "@react-spring/web";
 
@@ -110,28 +108,28 @@ export default function Testimonials() {
         ))}
       </ul>
       <img
-        src={curve1}
+        src={curved}
         alt=""
         draggable={false}
         width="373px"
         height="647px"
-        className="absolute top-0 right-[-1rem] w-48 -z-10 translate-y-full"
+        className="absolute top-0 right-[-5rem] w-60 -z-10 translate-y-1/2"
       />
       <img
-        src={curve2}
+        src={curved}
         alt=""
         draggable={false}
         width="373px"
         height="647px"
-        className="absolute top-0 left-[-1rem] w-48 -z-10 translate-y-5"
+        className="absolute top-0 left-[-8rem] w-60 -z-10 translate-y-5 rotate-[60deg]"
       />
       <img
-        src={curve3}
+        src={curved}
         alt=""
         draggable={false}
         width="373px"
         height="647px"
-        className="absolute bottom-0 right-[-1rem] w-48 -z-10 -translate-y-[130%]"
+        className="absolute bottom-0 right-[-8rem] w-60 -z-10 -translate-y-[140%] rotate-[60deg]"
       />
     </section>
   );

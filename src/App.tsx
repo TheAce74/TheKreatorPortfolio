@@ -17,7 +17,7 @@ function App() {
   }, []);
 
   return (
-    <main className="relative">
+    <main className="relative overflow-clip">
       <Header />
       <Home />
       <Portfolio />
