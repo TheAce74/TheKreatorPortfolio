@@ -41,7 +41,7 @@ export default function Home() {
             Brand Marketing Designer
           </p>
         </div>
-        <div className="*:text-neutral-100 *:font-semibold text-center md:text-left">
+        <div className="*:text-neutral-100 *:font-semibold text-center md:text-left lg:-translate-x-[1.5em] xl:-translate-x-[2em]">
           <h1 className="text-5xl lg:text-6xl xl:text-7xl mb-4">
             <span>Hi there!! I'm Wisdom</span>
             <br />

@@ -32,7 +32,7 @@ const testimonials = [
   {
     image: person3,
     name: "Emmanuel Onyemuche",
-    profession: "CEO, ALPHY TECH COMMUNICATIONS",
+    profession: "CEO, ALPHY TECHNOLOGIES",
     first:
       '"I grew my sales from mere peanuts to about 5x in profit since I started working with Wisdom for my designs.',
     second:
