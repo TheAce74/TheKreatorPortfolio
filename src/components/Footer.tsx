@@ -61,7 +61,7 @@ export default function Footer() {
         </ul>
       </div>
       <p className="text-center font-bold opacity-60 text-sm mb-8">
-        &copy; 2023 The Kreator. All Rights reserved.
+        &copy; 2024 The Kreator. All Rights reserved.
       </p>
       <img
         src={curved}
