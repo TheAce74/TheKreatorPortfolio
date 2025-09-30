@@ -1,9 +1,9 @@
 import work1 from "../assets/main1.jpg";
 import work2 from "../assets/main2.jpg";
 import work3 from "../assets/main3.jpg";
-import work4 from "../assets/work4.png";
+import work4 from "../assets/POWERFULLY PORTABLE PROLIFIC.jpg";
 import work5 from "../assets/main4.jpg";
-import work6 from "../assets/main5.jpg";
+import work6 from "../assets/ACCESS TO LW APPS.jpg";
 import curved from "../assets/curved.png";
 import { useTrail, animated, useInView } from "@react-spring/web";
 
